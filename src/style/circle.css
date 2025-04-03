@@ -1,0 +1,42 @@
+.left{
+    width: 718px;
+    height: 718px;
+    border-radius: 100%;
+    background-color: #9fb6ab1f;
+    position: absolute;
+    left: -400px;
+    bottom: -100px;
+    filter: blur(8px);
+        /* Effetto sfocatura */
+}
+
+.right{
+    width: 718px;
+    height: 718px;
+    border-radius: 100%;
+    background-color: #9fb6ab1f;
+    position: absolute;
+    right: -400px;
+    bottom: 50px;
+    filter: blur(8px);
+    /* Effetto sfocatura */
+}
+
+@media (max-width: 380px) {
+
+    .left{
+        width: 400px;
+        height: 400px;
+        border-radius: 100%;
+        background-color: #9fb6ab1f;
+        position: absolute;
+        left: -26px;
+        bottom: 750px;
+        filter: blur(8px);
+        z-index: -1;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+}
+
+

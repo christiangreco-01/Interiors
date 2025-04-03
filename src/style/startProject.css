@@ -1,0 +1,35 @@
+.text-part h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+    width: 100%;
+}
+
+.text-part p{
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 285px;
+    height: 99px;
+}
+
+.icon-part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 40px;
+    background-color: #CBD1C9;
+}

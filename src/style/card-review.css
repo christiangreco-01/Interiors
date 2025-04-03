@@ -1,0 +1,64 @@
+.person-name h6{
+    font-size: 12px;
+    font-weight: 400;
+}
+.review-text{
+    font-size: 12px;
+    font-weight: 400;
+    width: 80%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+        /* Permette di andare a capo */
+    margin-inline: 15px;
+}
+
+i{
+    display: flex;
+    justify-content: baseline;
+    font-size: 30px;
+    width: 100%;
+}
+
+.card{
+    width: 260px;
+    height: 240px;
+    background-color: #262E26;
+    color: #E5E8E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 85px;
+}
+
+.person{
+    color: #E5E8E3;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:15px;
+
+    justify-content: baseline;
+    width: 100%;
+}
+
+.person-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.person-name p, h6{
+    width: 100%;
+   display: flex;
+   align-content: start;
+}
+
+.person h6{
+    margin: 2px;
+    font-weight: 500;
+}
+
+.person p{
+    color: #999999;
+}

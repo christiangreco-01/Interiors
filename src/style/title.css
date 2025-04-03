@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1{
+    font-size: 60px;
+    font-weight:400;
+    font-family: "Kaisei Decol",
+        serif;
+    margin-block:30px;
+}
+
+h3{
+    font-family: "Kaisei Decol",
+            serif;
+}
+
+p{
+    margin: 0px;
+    font-size: 16px;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: fit-content;
+}
+
+.bi-arrow-down{
+    text-align: center;
+    font-size: 50px;
+    width: 65px;
+    height: 65px;
+    padding: 40px;
+    background-color: #3F5C51;
+    color: white;
+    position:absolute;
+    right: 80px;
+    bottom: -40px;
+}
+
+.bi-dash-lg{
+    font-size: 39px;
+    font-weight: 500;
+    font-family: "Kaisei Decol", serif;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 385px) {
+
+h1,h3,p{
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.title-container{
+    align-items: center;
+}
+}

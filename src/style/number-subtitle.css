@@ -1,0 +1,15 @@
+h3{
+    margin:0px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 12px;
+    margin: 0px;
+} 
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}

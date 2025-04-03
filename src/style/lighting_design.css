@@ -1,0 +1,22 @@
+.container_light{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.sub-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.sub-container-p{
+    margin-left: 50px;
+}
+
+.sub-container h6{
+    font-size: 20px;
+    font-weight: 500;
+    margin-block: 10px;
+}
+

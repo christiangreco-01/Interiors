@@ -1,0 +1,18 @@
+.adding{
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.adding-txt{
+    width: 80%;
+}
+
+@media (max-width: 385px) {
+    .adding-txt p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
