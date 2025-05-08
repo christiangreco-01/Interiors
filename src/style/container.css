@@ -1,18 +1,17 @@
-.container{
-    padding-inline: 100px;
-    margin: auto;
-    overflow-x: hidden;
+.container {
+  padding-inline: 100px;
+  margin: auto;
+  overflow-x: hidden;
 }
 
-.burger{
-    display: none;
+.burger {
+  display: none;
 }
 
 @media (max-width: 380px) {
-    .container {
-        width: 100%;
-        padding-inline: 10px;
-        margin: auto;
-    }
-    
+  .container {
+    width: 100%;
+    padding-inline: 10px;
+    margin: auto;
+  }
 }

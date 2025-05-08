@@ -1,0 +1,25 @@
+.whole-page {
+  margin-inline: 20px;
+}
+
+.centred {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.centred h1,
+p,
+h3 {
+  text-align: left;
+  width: 100%;
+}
+
+.centred p {
+  padding-block: 10px;
+}
+
+.centred .title-container {
+  width: 100%;
+}

@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import "../style/button.css";
 
-
-export const Button = ({name}) => {
+export const Button = ({ name }) => {
   return (
     <div>
-        <button>{name}</button>
+      <button className="whitespace-nowrap">{name}</button>
     </div>
-  )
-}
+  );
+};

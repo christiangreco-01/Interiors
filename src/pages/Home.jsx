@@ -10,6 +10,7 @@ import { StartProject } from "../components/StartProject";
 import { CirclePatter } from "../components/CirclePatter";
 import { Carousel } from "../components/Carousel";
 import { Container } from "../components/Container";
+import Sidebar from "../components/Sidebar";
 
 export const Home = () => {
   const reviews = [
